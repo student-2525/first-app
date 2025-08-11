@@ -5,8 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 90vh;
-  background: lightcyan;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('./Assets/background.jpeg')
+  no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 code {
